@@ -1,0 +1,8 @@
+.main-content {
+  width: 80%;
+  height: 100%;
+  position: fixed;
+  right: 0;
+  overflow: auto;
+  background-image: url(../../../public/prism.png);
+}
