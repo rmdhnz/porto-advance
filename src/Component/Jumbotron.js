@@ -27,9 +27,9 @@ export default function Jumbotron() {
             <p class="text-center fs-2">About me</p>
             <hr style={{ width: "250px" }} class="mx-auto text-warning" />
           </Row>
-          <Row>
+          <Row className="justify-content-center">
             <Col lg="3" className="col-3">
-              <a href="https://instagram.com/fadhlyrmdhnz" target="_blank">
+              <a href="https://github.com/rmdhnz" target="_blank">
                 <i class="bi bi-github"></i>
               </a>
             </Col>
@@ -39,12 +39,10 @@ export default function Jumbotron() {
               </a>
             </Col>
             <Col lg="3" className="col-3">
-              <a href="https://instagram.com/fadhlyrmdhnz" target="_blank">
-                <i class="bi bi-stack-overflow"></i>
-              </a>
-            </Col>
-            <Col lg="3" className="col-3">
-              <a href="https://instagram.com/fadhlyrmdhnz" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/fadhly-ramadhan-69217821b/"
+                target="_blank"
+              >
                 <i class="bi bi-linkedin"></i>
               </a>
             </Col>
