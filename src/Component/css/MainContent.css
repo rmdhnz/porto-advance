@@ -3,6 +3,18 @@
   height: 100%;
   position: fixed;
   right: 0;
+  font-family: cuy-font;
   overflow: auto;
   background-image: url(../../../public/prism.png);
+}
+@media (max-width: 992px) {
+  .main-content {
+    width: 100%;
+  }
+}
+.main-content i {
+  transition: 0.25s;
+}
+.main-content i:hover {
+  color: var(--main-fn);
 }

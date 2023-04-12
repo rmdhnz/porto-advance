@@ -1,0 +1,9 @@
+.contact-form hr {
+  width: 250px;
+  border-top: 5px solid var(--main-fn);
+  opacity: 1;
+}
+
+.contact-form {
+  height: 100%;
+}

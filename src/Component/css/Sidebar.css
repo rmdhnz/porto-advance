@@ -8,7 +8,7 @@
   padding-top: 1rem;
   padding-right: 1rem;
   transition: 500ms;
-  font-family: cuy-font;
+  font-family: sidebar-cuy;
 }
 ul {
   list-style: none;
@@ -33,4 +33,24 @@ ul a:hover {
 }
 .sidebar p {
   text-shadow: 0 10px 0 0 rgba(0, 0, 0, 0.5);
+}
+.sidebar li {
+  text-align: left;
+}
+.expand-sb {
+  transform: translateX(0);
+}
+.navigasi {
+  transform: scale(0);
+}
+@media (max-width: 992px) {
+  .sidebar {
+    z-index: 999;
+    width: 75%;
+    opacity: 0.75;
+    transform: translate(-100%);
+  }
+  .navigasi {
+    transform: scale(1);
+  }
 }
