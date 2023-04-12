@@ -17,11 +17,6 @@ export default function Sidebar() {
             <i class="bi bi-laptop"></i> Project
           </a>
         </li>
-        <li className="mb-3">
-          <a href="/contact">
-            <i class="bi bi-telephone"></i> Contact
-          </a>
-        </li>
       </ul>
     </div>
   );

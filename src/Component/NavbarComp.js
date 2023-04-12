@@ -32,11 +32,6 @@ function NavbarComp(args) {
               <i class="bi bi-laptop"></i> Project
             </NavLink>
           </NavItem>
-          <NavItem className="side mb-3">
-            <NavLink href="/contact">
-              <i class="bi bi-telephone"></i> Contact
-            </NavLink>
-          </NavItem>
         </Nav>
       </Collapse>
     </Navbar>

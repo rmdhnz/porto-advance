@@ -16,7 +16,6 @@ export default function MainContent() {
         <Routes>
           <Route path="/" element={<Jumbotron />} />
           <Route path="/projects" element={<Project />} />
-          <Route path="/contact" element={<ContactForm />} />
         </Routes>
       </BrowserRouter>
       <Footer />
