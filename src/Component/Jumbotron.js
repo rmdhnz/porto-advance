@@ -2,7 +2,8 @@ import React from "react";
 import { Col, Container, Row } from "reactstrap";
 import profilPhoto from "./img/foto-kece.jpg";
 import "./css/Jumbotron.css";
-const htmlIcon = ["</>", "C", "#"];
+import About from "./About";
+import Skill from "./Skill";
 export default function Jumbotron() {
   return (
     <Container className="jumbotron pt-5">
@@ -22,49 +23,9 @@ export default function Jumbotron() {
             </a>
           </Row>
         </Col>
-        <Col lg="6" className="profile">
-          <Row>
-            <p class="text-center fs-2">About me</p>
-            <hr style={{ width: "250px" }} class="mx-auto text-warning" />
-          </Row>
-          <Row className="justify-content-center">
-            <Col lg="3" className="col-3">
-              <a href="https://github.com/rmdhnz" target="_blank">
-                <i class="bi bi-github"></i>
-              </a>
-            </Col>
-            <Col lg="3" className="col-3">
-              <a href="https://instagram.com/fadhlyrmdhnz" target="_blank">
-                <i class="bi bi-instagram"></i>
-              </a>
-            </Col>
-            <Col lg="3" className="col-3">
-              <a
-                href="https://www.linkedin.com/in/fadhly-ramadhan-69217821b/"
-                target="_blank"
-              >
-                <i class="bi bi-linkedin"></i>
-              </a>
-            </Col>
-          </Row>
-          <Row className="mt-5 skill">
-            <p class="text-center fs-2">Skills</p>
-            <hr style={{ width: "250px" }} class="mx-auto text-warning" />
-          </Row>
-          <Row className="skill">
-            <Col lg="3" className="col-3">
-              <i class="bi bi-bootstrap-fill"></i>
-            </Col>
-            <Col lg="3" className="col-3">
-              <i>{htmlIcon[0]}</i>
-            </Col>
-            <Col lg="3" className="col-3">
-              <i>{htmlIcon[1]}</i>
-            </Col>
-            <Col lg="3" className="col-3">
-              <i>{htmlIcon[2]}</i>
-            </Col>
-          </Row>
+        <Col lg="6" className="profile mb-3">
+          <About />
+          <Skill />
         </Col>
       </Row>
     </Container>
