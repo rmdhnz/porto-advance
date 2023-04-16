@@ -3,7 +3,6 @@ import { Col, Container, Row } from "reactstrap";
 import profilPhoto from "./img/foto-kece.jpg";
 import "./css/Jumbotron.css";
 import About from "./About";
-import Skill from "./Skill";
 export default function Jumbotron() {
   return (
     <Container className="jumbotron pt-5">

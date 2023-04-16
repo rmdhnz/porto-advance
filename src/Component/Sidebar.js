@@ -1,7 +1,5 @@
 import React from "react";
 import "./css/Sidebar.css";
-import Timer from "../Timer";
-import { clr, setClr } from "./MainContent";
 export default function Sidebar() {
   return (
     <div className="text-white sidebar expand-sb">

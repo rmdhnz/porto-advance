@@ -9,7 +9,7 @@ import {
   NavLink,
 } from "reactstrap";
 import "./css/Sidebar.css";
-function NavbarComp(args) {
+function NavbarComp() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
