@@ -25,7 +25,6 @@ export default function Jumbotron() {
         </Col>
         <Col lg="6" className="profile mb-3">
           <About />
-          <Skill />
         </Col>
       </Row>
     </Container>

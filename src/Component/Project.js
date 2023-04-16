@@ -30,7 +30,10 @@ export default function Project() {
                 2022
               </CardSubtitle>
               <CardText></CardText>
-              <a href="/" className="btn btn-outline-primary">
+              <a
+                href="https://ieeeducate.netlify.app/"
+                className="btn btn-outline-primary"
+              >
                 show more
               </a>
             </CardBody>
@@ -45,7 +48,10 @@ export default function Project() {
                 2022
               </CardSubtitle>
               <CardText></CardText>
-              <a href="/" className="btn btn-outline-primary">
+              <a
+                href="https://ieeebig.netlify.app/"
+                className="btn btn-outline-primary"
+              >
                 show more
               </a>
             </CardBody>
