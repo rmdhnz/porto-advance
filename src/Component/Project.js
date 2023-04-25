@@ -21,7 +21,7 @@ export default function Project() {
         </Col>
       </Row>
       <Row className="justify-content-center">
-        <Col md="4" className="mb-3 col-6">
+        <Col md="5" sm="6" className="mb-5">
           <Card className="text-black">
             <img alt="Sample" src={logo} />
             <CardBody>
@@ -39,7 +39,7 @@ export default function Project() {
             </CardBody>
           </Card>
         </Col>
-        <Col md="4" className="mb-3 col-6">
+        <Col md="5" sm="6" className="mb-5">
           <Card className="text-black">
             <img alt="Sample" src={logo} />
             <CardBody>

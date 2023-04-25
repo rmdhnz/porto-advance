@@ -16,7 +16,6 @@ export default function MainContent() {
           <Route path="/projects" element={<Project />} />
         </Routes>
       </BrowserRouter>
-      <Footer />
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import "./css/Sidebar.css";
+import Timer from "../Timer";
 export default function Sidebar() {
   return (
     <div className="text-white sidebar expand-sb">
@@ -16,6 +17,7 @@ export default function Sidebar() {
           </a>
         </li>
       </ul>
+      <Timer />
     </div>
   );
 }

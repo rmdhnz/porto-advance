@@ -3,7 +3,6 @@ import htmlLogo from "./img/html.png";
 import cssLogo from "./img/css.png";
 import pythonLogo from "./img/python.png";
 import bootstrapLogo from "./img/bootstrap.png";
-import logo from "../logo.svg";
 import reactLogo from "./img/logo512.png";
 import cppLogo from "./img/cpp.png";
 import jsLogo from "./img/JavaScript-logo.png";
