@@ -22,7 +22,7 @@ export default function Project() {
       </Row>
       <Row className="justify-content-center">
         <Col md="5" sm="6" className="mb-5">
-          <Card className="text-black">
+          <Card className="text-black card-project shadow-lgN">
             <img alt="Sample" src={logo} />
             <CardBody>
               <CardTitle tag="h5">IEEElevate</CardTitle>

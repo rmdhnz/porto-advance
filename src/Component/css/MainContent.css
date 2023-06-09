@@ -7,9 +7,6 @@
   overflow: auto;
   background-image: url(../../../public/prism.png);
 }
-/* .main-content > * {
-  overflow: auto;
-} */
 @media (max-width: 992px) {
   .main-content {
     width: 100%;

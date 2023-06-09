@@ -13,7 +13,7 @@ import pythonLogo from "./img/python-removebg-preview.png";
 import figmaLogo from "./img/figma-removebg-preview.png";
 export default function Jumbotron() {
   return (
-    <Container className="jumbotron py-5">
+    <Container className="jumbotron py-5  ">
       <Row className="mt-5">
         <Col lg="6" className="left-side mb-3">
           <Row>
@@ -23,11 +23,6 @@ export default function Jumbotron() {
             <p className="display-6 text-center text-warning fst-italic">
               Fadhly Ramadhan
             </p>
-          </Row>
-          <Row>
-            <a href="">
-              <i class="bi bi-envelope">ramadhanfadhly2@gmail.com</i>
-            </a>
           </Row>
         </Col>
         <Col lg="6" className="profile mb-3">
